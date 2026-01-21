@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class Response Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="header">
+        <h1>Class Response Tracker</h1>
+        <div class="score">
+            Class Tally: <span id="tally">0</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="student-label">Current Student</div>
+        <div id="studentNumber" class="student-number">—</div>
+
+        <button class="pick-btn" onclick="pickStudent()">Pick Random Student</button>
+
+        <div class="actions">
+            <button class="correct" onclick="markCorrect()">✔ Correct</button>
+            <button class="wrong" onclick="markWrong()">✖ Wrong</button>
+        </div>
+
+        <button class="reset" onclick="resetClass()">Reset Class</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

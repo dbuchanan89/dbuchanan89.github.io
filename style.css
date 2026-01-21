@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #e2e8f0);
+    color: #1f2933;
+}
+
+.app {
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.header {
+    background: #1e3a5f;
+    color: #f8fafc;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 32px 22px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.student-label {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+.student-number {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #0f172a;
+}
+
+.pick-btn {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.pick-btn:hover {
+    background: #1d4ed8;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+}
+
+.actions button {
+    flex: 1;
+    padding: 14px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.correct {
+    background: #16a34a;
+    color: #ffffff;
+}
+
+.correct:hover {
+    background: #15803d;
+}
+
+.wrong {
+    background: #dc2626;
+    color: #ffffff;
+}
+
+.wrong:hover {
+    background: #b91c1c;
+}
+
+.reset {
+    margin-top: 26px;
+    width: 100%;
+    padding: 12px;
+    background: #e5e7eb;
+    color: #374151;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background: #d1d5db;
+}

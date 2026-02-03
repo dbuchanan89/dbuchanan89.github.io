@@ -13,9 +13,11 @@ comparison operators are used to check divisibility and find factor pairs. Altho
 problem, the logic used here was effective for practicing nested loops. 
 */
 
-
+//provides input/output functionality
 #include <iostream>
+//provides math functionality
 #include <cmath>
+//Uses standard names directly
 using namespace std;
 
 int main()

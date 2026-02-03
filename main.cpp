@@ -1,7 +1,3 @@
-#include <iostream>
-#include <cmath>
-using namespace std;
-
 /*
 This program was written to help users better understand how numbers can be broken down into factor pairs.
 Someone who is learning math or computer science could use this program to see how multiplication and
@@ -16,6 +12,11 @@ number of factor pairs found. Arithmetic and relational operators such as modulu
 comparison operators are used to check divisibility and find factor pairs. Although there are more efficient ways to complete this
 problem, the logic used here was effective for practicing nested loops. 
 */
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
 
 int main()
 {
